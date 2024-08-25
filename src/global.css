@@ -1,7 +1,7 @@
 :root {
-  --cinza: #EBEBEC;
+  --cinza: #c5c5c5;
   --preto: #272727;
-  --rosa: #F96197;
+  --rosa: #F86197;
   --verde: #36B59F;
 }
 
@@ -11,14 +11,14 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: var(--cinza);
 }
 
 body, input, textarea, button {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 1rem;
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
