@@ -7,16 +7,10 @@ export function TaskList() {
         {id:1, tarefa: "Estudar"},
         {id:2, tarefa: "Lavar a louça"},
         {id:3, tarefa: "Ir a academia"},
-        {}
+        {id:4, tarefa: "estudar DW"}
     ]
 
     return (
-        <ul className={styles.TaskList}>
-            
-            <TaskItem texto={listaTarefas[0].tarefa}/>
-            <TaskItem texto={listaTarefas[1].tarefa}/>
-            <TaskItem texto={listaTarefas[2].tarefa}/>
-
-        </ul>
+        listaTarefas.map(item => <TaskItem texto = {item.tarefa} />)
     )
 }
